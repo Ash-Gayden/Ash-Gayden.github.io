@@ -7,40 +7,45 @@
       text-align: center;
     }
 
-    .navigation-toggle {
+    .navigation-wrap {
       display: inline-block;
       margin-bottom: 20px;
+    }
+
+    .navigation-toggle {
+      display: inline-block;
       cursor: pointer;
       background-color: #f1f1f1;
       padding: 5px 10px;
     }
 
-    .navigation-toggle:hover + .navigation-items,
-    .navigation-items:hover {
-      display: flex;
-    }
-
     .navigation-items {
       display: none;
       justify-content: center;
-      margin-bottom: 20px;
+      margin-top: 10px;
     }
 
     .navigation-items a {
       margin: 0 10px;
+    }
+
+    .navigation-wrap:hover .navigation-items {
+      display: flex;
     }
   </style>
 </head>
 <body>
   <h1>Rai</h1>
   <p>Project page work in progress</p>
-  <div class="navigation-toggle">Toggle Navigation</div>
-  <div class="navigation-items">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="research.html">Research</a>
-    <a href="projects.html">Projects</a>
-    <a href="resume.html">Resume</a>
+  <div class="navigation-wrap">
+    <div class="navigation-toggle">Toggle Navigation</div>
+    <div class="navigation-items">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+    </div>
   </div>
 </body>
 </html>
