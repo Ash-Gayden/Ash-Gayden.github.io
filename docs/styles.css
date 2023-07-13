@@ -8,7 +8,7 @@ body {
     }
 
     .navigation-toggle {
-      display: inline-block;
+      display: none;
       cursor: pointer;
     }
 
@@ -22,7 +22,7 @@ body {
     }
 
     .navigation-items a {
-      display: block;
+      display: none;
       padding: 5px;
       margin: 0 10px;
       text-decoration: none;
