@@ -1,4 +1,4 @@
-body {
+ body {
   text-align: center;
 }
 
@@ -31,6 +31,7 @@ nav {
 }
 
 .navigation-items a {
+  display: block;
   padding: 8px 20px;
   text-decoration: none;
   color: #333;
