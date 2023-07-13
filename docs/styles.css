@@ -1,7 +1,9 @@
 body {
   text-align: center;
   font-family: Courier New, monospace;
-}.container {}
+}
+
+.container {}
 
 nav {
   text-align: right;
@@ -25,11 +27,18 @@ nav {
   padding: 0;
   background-color: #f1f1f1;
   text-align: center;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
+.navigation-items li {
+  margin: 0;
+  padding: 0;
+}
+
 .navigation-items a {
-  display: inline-block;
+  display: block;
   padding: 8px 20px;
   text-decoration: none;
   color: #333;
