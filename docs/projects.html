@@ -21,16 +21,25 @@
 
     .navigation-items {
       display: none;
-      justify-content: center;
-      margin-top: 10px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      padding: 5px 0;
+      text-align: center;
     }
 
     .navigation-items a {
+      display: block;
+      padding: 5px;
       margin: 0 10px;
+      text-decoration: none;
+      color: #333;
     }
 
     nav:hover .navigation-items {
-      display: flex;
+      display: block;
     }
   </style>
 </head>
