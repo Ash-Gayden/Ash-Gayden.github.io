@@ -2,7 +2,40 @@
 <head>
   <meta charset="UTF-8" />
   <title>Project</title>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
+  body {
+      text-align: center;
+    }
+
+    nav {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .navigation-toggle {
+      display: inline-block;
+      cursor: pointer;
+      background-color: #f1f1f1;
+      padding: 5px 10px;
+    }
+
+    .navigation-items {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      padding: 5px 0;
+      text-align: center;
+    }
+
+    .navigation-items a {
+      display: block;
+      padding: 5px;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
 </head>
 <body>
   <h1>Rai</h1>
