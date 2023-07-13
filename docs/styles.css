@@ -3,12 +3,12 @@ body {
     }
 
     nav {
-      display: inline-block;
+      display: none;
       margin-bottom: 20px;
     }
 
     .navigation-toggle {
-      display: none;
+      display: inline-block;
       cursor: pointer;
     }
 
