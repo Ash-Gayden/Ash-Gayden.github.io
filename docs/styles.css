@@ -3,16 +3,12 @@ body {
 }
 
 nav {
-  display: inline-block;
   margin-bottom: 20px;
-  position: relative;
 }
 
 .navigation-toggle {
   display: inline-block;
   cursor: pointer;
-  background-color: #f1f1f1;
-  padding: 5px 10px;
 }
 
 .navigation-items {
@@ -22,21 +18,16 @@ nav {
   left: 0;
   width: 100%;
   background-color: #f1f1f1;
+  padding: 5px 0;
   text-align: center;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 999;
 }
 
 .navigation-items a {
   display: block;
-  padding: 8px 20px;
+  padding: 5px;
+  margin: 0 10px;
   text-decoration: none;
   color: #333;
-  transition: background-color 0.3s ease;
-}
-
-.navigation-items a:hover {
-  background-color: #ddd;
 }
 
 nav:hover .navigation-items {
