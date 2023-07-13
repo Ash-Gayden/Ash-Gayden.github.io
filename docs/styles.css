@@ -1,28 +1,19 @@
 body {
   text-align: center;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
+}.container {}
 
 nav {
   text-align: right;
   position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px;
+  top: .5vw;
+  right: .5vw;
 }
 
 .navigation-toggle {
   display: inline-block;
   cursor: pointer;
   background-color: #7FFFD4;
-  padding: .5vw 10vw;
+  padding: .5vw 8vw;
 }
 
 .navigation-items {
@@ -30,16 +21,14 @@ nav {
   position: absolute;
   top: 100%;
   right: 0;
-  width: 150px;
-  background-color: #f1f1f1;
-  text-align: left;
-  list-style-type: none;
-  margin: 0;
   padding: 0;
+  background-color: #f1f1f1;
+  text-align: center;
+  list-style-type: none;
 }
 
 .navigation-items a {
-  display: block;
+  display: inline-block;
   padding: 8px 20px;
   text-decoration: none;
   color: #333;
