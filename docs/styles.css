@@ -2,11 +2,20 @@ body {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
 nav {
   text-align: right;
-  display: inline-block;
-  margin-bottom: 20px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
 }
 
 .navigation-toggle {
@@ -20,12 +29,13 @@ nav {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
-  width: 100%;
+  right: 0;
+  width: 150px;
   background-color: #f1f1f1;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .navigation-items a {
