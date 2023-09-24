@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Courier New, monospace;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px; /* Adjust the value to increase or decrease the font size */
+}
+
+.container {}
+
+nav {
+  text-align: right;
+  position: absolute;
+  top: .5vw;
+  right: .5vw;
+}
+
+.navigation-toggle {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #7FFFD4;
+  padding: .5vw 10vw;
+}
+
+.navigation-items {
+  display: none;
+  position: relative;
+  top: 100%;
+  padding: .5vw 5vw;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation-items li {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-items a {
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-items a:hover {
+  background-color: #ddd;
+}
+
+nav:hover .navigation-items {
+  display: block;
+}
+      form {
+        background-color: #4654e1;
+        width: 300px;
+        height: 44px;
+        border-radius: 5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+      }
+
+      input {
+        all: unset;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+      }
+
+      ::placeholder {
+        color: #fff;
+        opacity: 0.7; 
+      }
+
+      svg {
+        color: #fff;
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+        padding: 10px;
+      }
+
+      button {
+        all: unset;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+      }
