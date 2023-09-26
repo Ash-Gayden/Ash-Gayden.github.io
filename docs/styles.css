@@ -30,7 +30,7 @@ h7 {
   width: 100%;
   padding-top: 10px;
   border-bottom: .3px solid darkgrey; 
-
+  z-index: 1;
 }
 
 .navbar a {
@@ -287,6 +287,21 @@ h8 {
   border-right: none; 
 }
 
+.container {
+    display: flex;
+}
+.column1 {
+    flex: 2; /* Adjust the size of the first column */
+    color: white;
+    padding: 20px;
+}
+
+.column2 {
+    flex: 1; /* Adjust the size of the second column 
+    background-color: #e74c3c; */
+    color: black;
+    padding: 20px;
+}
 
 group {
     display:flex;
