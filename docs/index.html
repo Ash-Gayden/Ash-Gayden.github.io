@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color:#0D192D">
+<body style="background-color:#0D192D; color:ghostwhite;">
     <div class="navbar" style="background-color: ghostwhite; opacity:00%">
         <section style="float: right;">
             <a href = "mailto: gayden.ash@gmail.com">Contact</a>
@@ -14,7 +14,7 @@
             <a href="three.html">Projects</a>
             <a href="four.html">Experience</a>
         </section>
-        <section style="font-style: italic; padding-left: 130px;">
+        <section style="font-style: italic;">
             <a href="index.html" style="border: 1px solid black; padding-bottom: 10px; padding-top: 10px;">Ash Gayden</a>
         </section>
     </div>
@@ -26,36 +26,46 @@
                 <div class="row">
                     <div class="column" style="text-align: left; border-right: none;">
                         <h8 class="neonText">Ash Gayden</h8>
-                        <p style="padding-right: 150px;">hello my name is Ash, I'm a self-taught coder with experience in ... what's your favorite color</p>
-    <div class="navbar1">
-        
-        <!--<a href="one.html">About Me</a>
-        <a href="two.html">Projects</a> -->
-	    <a href="three.html">Projects</a>
-        <a href="four.html">Experience</a>
-    </div>
-    <a href = "mailto: gayden.ash@gmail.com">Contact</a>
+    <nav style="padding-top: 80px;">
+    <a href="three.html" class="nav__link">
+        <span class="nav__link--text" data-splitting>Projects</span>
+        <span class="nav__link--text" data-splitting>Projects</span>
+    </a>
+    <a href="four.html" class="nav__link">
+        <span class="nav__link--text" data-splitting>Experience</span>
+        <span class="nav__link--text" data-splitting>Experience</span>
+    </a>
+    <a href = "mailto: gayden.ash@gmail.com" class="nav__link">
+        <span class="nav__link--text" data-splitting>Contact</span>
+        <span class="nav__link--text" data-splitting>Contact</span>
+    </a>
+</nav>
+
+<div class="support">
+    <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+</div>
                     </div>
                     <div class="column" style="text-align: right;">
                             <div class="row">
                                 <div class="column" style="text-align: left; border-right: none;">
-                                    <p>My name is Ash Gayden. I am a graduating senior majoring in Anthropology, Data Science, Business, Physics, CS, and Engineering. I'm a strong believer in interdisciplinary studies and spent three years of schooling at The University of Chicago before transferring to Arizona State University online via Starbucks College Achievement Plan. </p>
-<p>I've worked using different technologies, both backend and frontend, and have conducted research in a multitude of fields. My goal is to accurately identify and solve real-world problems by analyzing it using the methods taught throughout different fields.</p>
-                                    <p>You can read more about me by exploring this website, or Check my Github for some cool things.</p>
-                                    <p>Here are a few technologies I’ve been working with recently:</p>
+                                    <p>My name is Ash Gayden. I am a graduating senior majoring in Anthropology and Data Science. I'm a strong believer in interdisciplinary studies and spent three years of schooling at The University of Chicago before transferring to Arizona State University online via Starbucks College Achievement Plan. </p>
+<p>I've worked using different technologies, and have conducted research in a multitude of fields. My goal is to accurately identify and solve real-world problems by analyzing it using the methods taught throughout different fields.</p>
+                                    <p>You can read more about me by exploring this website which I will be updating consistently.</p>
+                                    <p>Here are a few interest of mine:</p>
                                     <div class="row">
                                         <div class="column" style="text-align: left; border-right: none; padding-left: none;">
                                             <ul>
-                                                <li>Java</li>
-                                                <li>SQL</li>
-                                                <li>Docker</li>
+                                                <li>Research</li>
+                                                <li>Indoor Climbing</li>
+                                                <li>Photography</li>
                                             </ul>
                                         </div>
                                         <div class="column" style="text-align: left;">
                                             <ul>
-                                                <li>Git</li>
-                                                <li>Jenkins</li>
-                                                <li>Spring Boot</li>
+                                                <li>F1</li>
+                                                <li>Traveling</li>
+                                                <li>Reading</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -161,7 +171,9 @@
         // Start the animation loop
         updateParticles();
 
+        console.clear();
 
+Splitting();
     </script>
 </body>
 </html>
